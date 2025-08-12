@@ -3,6 +3,7 @@ package dev.achmad.rollcall.ui.screens.auth
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import dev.achmad.rollcall.core.di.util.inject
+import dev.achmad.rollcall.domain.preference.AuthPreference
 import dev.achmad.rollcall.ui.util.ToastHelper
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow

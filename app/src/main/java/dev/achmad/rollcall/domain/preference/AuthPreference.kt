@@ -1,4 +1,4 @@
-package dev.achmad.rollcall.ui.screens.auth
+package dev.achmad.rollcall.domain.preference
 
 import dev.achmad.rollcall.core.preference.PreferenceStore
 

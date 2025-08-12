@@ -4,6 +4,7 @@ import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import dev.achmad.rollcall.core.di.util.inject
 import dev.achmad.rollcall.domain.model.SignInOption
+import dev.achmad.rollcall.domain.preference.AuthPreference
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch

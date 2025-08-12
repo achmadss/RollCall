@@ -20,7 +20,7 @@ import cafe.adriel.voyager.navigator.NavigatorDisposeBehavior
 import cafe.adriel.voyager.transitions.ScreenTransition
 import dev.achmad.rollcall.core.di.util.injectLazy
 import dev.achmad.rollcall.ui.screens.auth.CompanyCodeScreen
-import dev.achmad.rollcall.ui.screens.auth.AuthPreference
+import dev.achmad.rollcall.domain.preference.AuthPreference
 import dev.achmad.rollcall.ui.screens.auth.SignInScreen
 import dev.achmad.rollcall.ui.screens.checkin.CheckInScreen
 import dev.achmad.rollcall.ui.theme.RollCallTheme
