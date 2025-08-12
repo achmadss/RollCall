@@ -2,8 +2,8 @@ package dev.achmad.rollcall.domain.model
 
 data class Attendance(
     val id: String,
-    val companyId: String,
     val userId: String,
+    val company: Company,
     val type: Type,
     val timestamp: Long,
     val recordedAt: Long,

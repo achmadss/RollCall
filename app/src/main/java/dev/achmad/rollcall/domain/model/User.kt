@@ -4,7 +4,7 @@ data class User(
     val id: String,
     val name: String,
     val email: String,
-    val companyId: String,
+    val company: Company,
     val role: Role,
     val avatarUrl: String? = null,
     val isActive: Boolean = true,

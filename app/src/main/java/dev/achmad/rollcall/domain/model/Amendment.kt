@@ -4,11 +4,11 @@ import dev.achmad.rollcall.core.util.enumValueOfOrDefault
 
 data class Amendment(
     val id: String,
-    val attendanceId: String,
+    val attendance: Attendance,
     val requestTimestamp: Long,
     val reason: String,
     val status: Status,
-    val managerId: String,
+    val manager: User,
     val managerComment: String,
     val createdAt: Long,
     val statusUpdatedAt: Long,
