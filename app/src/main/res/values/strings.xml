@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RollCall</string>
+
+    <!--  Company Code Screen  -->
+    <string name="company_code_title">Welcome</string>
+    <string name="company_code_description">Enter your company code to access the platform</string>
+    <string name="company_code_text_field_label">Company Code</string>
+    <string name="company_code_text_field_placeholder">Enter your company code</string>
+    <string name="company_code_continue">Continue</string>
+    <string name="company_code_need_help_title">Need help?</string>
+    <string name="company_code_need_help_description">Your company code is a unique identifier provided by your organization. This code ensures you access the correct company portal and data. If you don\'t have your company code, please contact your system administrator or HR department.</string>
+
+</resources>
