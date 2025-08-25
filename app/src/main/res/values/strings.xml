@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RollCall</string>
+    <string name="app_name">CheckIn</string>
 
     <!--  Company Code Screen  -->
     <string name="company_code_title">Welcome</string>
@@ -9,5 +9,16 @@
     <string name="company_code_continue">Continue</string>
     <string name="company_code_need_help_title">Need help?</string>
     <string name="company_code_need_help_description">Your company code is a unique identifier provided by your organization. This code ensures you access the correct company portal and data. If you don\'t have your company code, please contact your system administrator or HR department.</string>
+
+    <!--  Sign-in Screen  -->
+    <string name="sign_in_description">Sign-in to continue</string>
+    <string name="sign_in_basic_username_text_field_label">Username or Email</string>
+    <string name="sign_in_basic_username_text_field_placeholder">Enter your username or email</string>
+    <string name="sign_in_basic_password_text_field_label">Password</string>
+    <string name="sign_in_basic_password_text_field_placeholder">Enter your password</string>
+    <string name="sign_in_continue">Continue</string>
+    <string name="sign_in_change_company">Switch Company</string>
+    <string name="sign_in_need_help_title">Need help?</string>
+    <string name="sign_in_need_help_description">Sign-in options are determined by your company. If you have trouble signing in, please contact your system administrator or HR department.</string>
 
 </resources>

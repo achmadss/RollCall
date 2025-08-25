@@ -2,14 +2,15 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.serialization)
 }
 
 android {
-    namespace = "dev.achmad.rollcall"
+    namespace = "dev.achmad.checkin"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "dev.achmad.rollcall"
+        applicationId = "dev.achmad.checkin"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
@@ -60,6 +61,7 @@ dependencies {
     implementation(libs.material.icons)
     implementation(libs.material.motion.compose.core)
     implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
 
     implementation(platform(libs.koin.bom))
     implementation(libs.koin.android)
@@ -76,5 +78,10 @@ dependencies {
     implementation(libs.voyager.tabNavigator)
     implementation(libs.voyager.transitions)
     implementation(libs.voyager.screenmodel)
+
+    implementation(libs.androidx.camera.core)
+    implementation(libs.androidx.camera.compose)
+    implementation(libs.androidx.camera.lifecycle)
+    implementation(libs.androidx.camera.camera2)
 
 }

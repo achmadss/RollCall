@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RollCall"
+rootProject.name = "CheckIn"
 include(":app")
  
