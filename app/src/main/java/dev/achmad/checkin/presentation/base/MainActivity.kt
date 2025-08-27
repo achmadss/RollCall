@@ -21,6 +21,7 @@ import cafe.adriel.voyager.transitions.ScreenTransition
 import dev.achmad.checkin.core.event.AppEvent
 import dev.achmad.checkin.core.event.AppEventBus
 import dev.achmad.checkin.presentation.screens.auth.CompanyCodeScreen
+import dev.achmad.checkin.presentation.screens.checkin.CheckInScreen
 import dev.achmad.checkin.presentation.theme.CheckInTheme
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
@@ -31,7 +32,7 @@ import soup.compose.material.motion.animation.rememberSlideDistance
 class MainActivity : ComponentActivity() {
 
     private var isReady = false
-    private var initialScreen: Screen = CompanyCodeScreen()
+    private var initialScreen: Screen = CheckInScreen
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

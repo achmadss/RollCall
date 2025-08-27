@@ -1,11 +1,13 @@
 package dev.achmad.checkin.presentation.util
 
 import android.content.Context
+import java.text.SimpleDateFormat
 import java.time.Instant
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
+import java.util.Date
 import java.util.Locale
 
 fun Long.formatDate(
@@ -31,3 +33,13 @@ fun Long.toLocalDateTime(): LocalDateTime =
     Instant.ofEpochMilli(this)
         .atZone(ZoneId.systemDefault())
         .toLocalDateTime()
+
+fun getCurrentTime(): String {
+    val formatter = SimpleDateFormat("HH:mm", Locale.getDefault())
+    return formatter.format(Date())
+}
+
+fun getCurrentDate(): String {
+    val formatter = SimpleDateFormat("dd/MM/yyyy (EEE)", Locale.getDefault())
+    return formatter.format(Date())
+}

@@ -20,7 +20,7 @@ data class Attendance(
     @SerialName("updated_at") val updatedAt: Long,
 ) {
     @Serializable
-    enum class Type { CLOCK_IN, CLOCK_OUT }
+    enum class Type { CHECK_IN, CHECK_OUT }
 
     @Serializable
     enum class Status {
